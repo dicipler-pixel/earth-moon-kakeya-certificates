@@ -1,0 +1,37 @@
+{
+  "base_pairs": 861,
+  "controls": {
+    "extension_positive_complete_representatives": [
+      [
+        2,
+        0,
+        1
+      ],
+      [
+        5,
+        2,
+        -1
+      ]
+    ],
+    "kt_11_6_complete": true,
+    "kt_7_4_complete": true,
+    "kt_minus_generator_closure": [],
+    "one_site_zero_first_gain_then_complete": true
+  },
+  "first_escape_class_counts": {
+    "empty": 7926,
+    "forbidden_or_zero_image": 13689,
+    "plane": 4281,
+    "ray": 17391
+  },
+  "fixed_edges": 7,
+  "fixed_vertices": 6,
+  "generator_cost": 3,
+  "meaning": "Quantified one-unrestricted-direction families; not a count of disjoint new configurations.",
+  "potential_winners": [],
+  "representative_checks": 6112,
+  "schema": "kakeya-one-free-generator-v1",
+  "score": "5/3",
+  "site_parametric_families": 5166,
+  "status": "EXCLUDED"
+}

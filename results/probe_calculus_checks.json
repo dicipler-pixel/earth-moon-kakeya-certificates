@@ -1,0 +1,475 @@
+{
+  "coherent_elimination_orders": 24,
+  "positive_weight_kernel_tests": 50,
+  "post_elimination_loads": [
+    "0",
+    "1/3",
+    "1",
+    "5"
+  ],
+  "probe_polynomial_systems": 50,
+  "rank_one_updates": 50,
+  "records": [
+    {
+      "det_leading": "5",
+      "dimension": 2,
+      "gain": "1/5",
+      "nullity": 1,
+      "probe_leading": "1",
+      "rho": "1/5",
+      "rows": 1
+    },
+    {
+      "det_leading": "4",
+      "dimension": 2,
+      "gain": "0",
+      "nullity": 1,
+      "probe_leading": "0",
+      "rho": "0",
+      "rows": 1
+    },
+    {
+      "det_leading": "4",
+      "dimension": 2,
+      "gain": "0",
+      "nullity": 0,
+      "probe_leading": null,
+      "rho": "0",
+      "rows": 2
+    },
+    {
+      "det_leading": "36",
+      "dimension": 2,
+      "gain": "0",
+      "nullity": 0,
+      "probe_leading": null,
+      "rho": "0",
+      "rows": 2
+    },
+    {
+      "det_leading": "2",
+      "dimension": 2,
+      "gain": "0",
+      "nullity": 0,
+      "probe_leading": null,
+      "rho": "0",
+      "rows": 3
+    },
+    {
+      "det_leading": "96",
+      "dimension": 2,
+      "gain": "0",
+      "nullity": 0,
+      "probe_leading": null,
+      "rho": "0",
+      "rows": 3
+    },
+    {
+      "det_leading": "5",
+      "dimension": 3,
+      "gain": "6/5",
+      "nullity": 2,
+      "probe_leading": "36",
+      "rho": "36/5",
+      "rows": 1
+    },
+    {
+      "det_leading": "6",
+      "dimension": 3,
+      "gain": "4/21",
+      "nullity": 2,
+      "probe_leading": "53",
+      "rho": "53/6",
+      "rows": 1
+    },
+    {
+      "det_leading": "32",
+      "dimension": 3,
+      "gain": "2",
+      "nullity": 1,
+      "probe_leading": "64",
+      "rho": "2",
+      "rows": 2
+    },
+    {
+      "det_leading": "4",
+      "dimension": 3,
+      "gain": "0",
+      "nullity": 1,
+      "probe_leading": "16",
+      "rho": "4",
+      "rows": 2
+    },
+    {
+      "det_leading": "64",
+      "dimension": 3,
+      "gain": "0",
+      "nullity": 0,
+      "probe_leading": null,
+      "rho": "0",
+      "rows": 3
+    },
+    {
+      "det_leading": "81",
+      "dimension": 3,
+      "gain": "0",
+      "nullity": 0,
+      "probe_leading": null,
+      "rho": "0",
+      "rows": 3
+    },
+    {
+      "det_leading": "8",
+      "dimension": 3,
+      "gain": "0",
+      "nullity": 0,
+      "probe_leading": null,
+      "rho": "0",
+      "rows": 4
+    },
+    {
+      "det_leading": "276",
+      "dimension": 3,
+      "gain": "0",
+      "nullity": 0,
+      "probe_leading": null,
+      "rho": "0",
+      "rows": 4
+    },
+    {
+      "det_leading": "13",
+      "dimension": 4,
+      "gain": "289/117",
+      "nullity": 3,
+      "probe_leading": "74",
+      "rho": "74/13",
+      "rows": 1
+    },
+    {
+      "det_leading": "10",
+      "dimension": 4,
+      "gain": "81/14",
+      "nullity": 3,
+      "probe_leading": "129",
+      "rho": "129/10",
+      "rows": 1
+    },
+    {
+      "det_leading": "29",
+      "dimension": 4,
+      "gain": "16/29",
+      "nullity": 2,
+      "probe_leading": "45",
+      "rho": "45/29",
+      "rows": 2
+    },
+    {
+      "det_leading": "25",
+      "dimension": 4,
+      "gain": "36/25",
+      "nullity": 2,
+      "probe_leading": "117",
+      "rho": "117/25",
+      "rows": 2
+    },
+    {
+      "det_leading": "450",
+      "dimension": 4,
+      "gain": "8/25",
+      "nullity": 1,
+      "probe_leading": "144",
+      "rho": "8/25",
+      "rows": 3
+    },
+    {
+      "det_leading": "21",
+      "dimension": 4,
+      "gain": "169/21",
+      "nullity": 1,
+      "probe_leading": "169",
+      "rho": "169/21",
+      "rows": 3
+    },
+    {
+      "det_leading": "144",
+      "dimension": 4,
+      "gain": "0",
+      "nullity": 0,
+      "probe_leading": null,
+      "rho": "0",
+      "rows": 4
+    },
+    {
+      "det_leading": "144",
+      "dimension": 4,
+      "gain": "0",
+      "nullity": 0,
+      "probe_leading": null,
+      "rho": "0",
+      "rows": 4
+    },
+    {
+      "det_leading": "3731",
+      "dimension": 4,
+      "gain": "0",
+      "nullity": 0,
+      "probe_leading": null,
+      "rho": "0",
+      "rows": 5
+    },
+    {
+      "det_leading": "160",
+      "dimension": 4,
+      "gain": "0",
+      "nullity": 0,
+      "probe_leading": null,
+      "rho": "0",
+      "rows": 5
+    },
+    {
+      "det_leading": "10",
+      "dimension": 5,
+      "gain": "15/34",
+      "nullity": 4,
+      "probe_leading": "45",
+      "rho": "9/2",
+      "rows": 1
+    },
+    {
+      "det_leading": "14",
+      "dimension": 5,
+      "gain": "0",
+      "nullity": 4,
+      "probe_leading": "91",
+      "rho": "13/2",
+      "rows": 1
+    },
+    {
+      "det_leading": "98",
+      "dimension": 5,
+      "gain": "11449/3381",
+      "nullity": 3,
+      "probe_leading": "1091",
+      "rho": "1091/98",
+      "rows": 2
+    },
+    {
+      "det_leading": "80",
+      "dimension": 5,
+      "gain": "16/3",
+      "nullity": 3,
+      "probe_leading": "568",
+      "rho": "71/10",
+      "rows": 2
+    },
+    {
+      "det_leading": "452",
+      "dimension": 5,
+      "gain": "95922/17063",
+      "nullity": 2,
+      "probe_leading": "3888",
+      "rho": "972/113",
+      "rows": 3
+    },
+    {
+      "det_leading": "120",
+      "dimension": 5,
+      "gain": "10609/44220",
+      "nullity": 2,
+      "probe_leading": "34",
+      "rho": "17/60",
+      "rows": 3
+    },
+    {
+      "det_leading": "2457",
+      "dimension": 5,
+      "gain": "768/91",
+      "nullity": 1,
+      "probe_leading": "20736",
+      "rho": "768/91",
+      "rows": 4
+    },
+    {
+      "det_leading": "800",
+      "dimension": 5,
+      "gain": "32/25",
+      "nullity": 1,
+      "probe_leading": "1024",
+      "rho": "32/25",
+      "rows": 4
+    },
+    {
+      "det_leading": "16",
+      "dimension": 5,
+      "gain": "0",
+      "nullity": 0,
+      "probe_leading": null,
+      "rho": "0",
+      "rows": 5
+    },
+    {
+      "det_leading": "529",
+      "dimension": 5,
+      "gain": "0",
+      "nullity": 0,
+      "probe_leading": null,
+      "rho": "0",
+      "rows": 5
+    },
+    {
+      "det_leading": "248",
+      "dimension": 5,
+      "gain": "0",
+      "nullity": 0,
+      "probe_leading": null,
+      "rho": "0",
+      "rows": 6
+    },
+    {
+      "det_leading": "11176",
+      "dimension": 5,
+      "gain": "0",
+      "nullity": 0,
+      "probe_leading": null,
+      "rho": "0",
+      "rows": 6
+    },
+    {
+      "det_leading": "10",
+      "dimension": 6,
+      "gain": "36/35",
+      "nullity": 5,
+      "probe_leading": "91",
+      "rho": "91/10",
+      "rows": 1
+    },
+    {
+      "det_leading": "15",
+      "dimension": 6,
+      "gain": "189/190",
+      "nullity": 5,
+      "probe_leading": "39",
+      "rho": "13/5",
+      "rows": 1
+    },
+    {
+      "det_leading": "81",
+      "dimension": 6,
+      "gain": "96721/52407",
+      "nullity": 4,
+      "probe_leading": "398",
+      "rho": "398/81",
+      "rows": 2
+    },
+    {
+      "det_leading": "101",
+      "dimension": 6,
+      "gain": "66049/132815",
+      "nullity": 4,
+      "probe_leading": "755",
+      "rho": "755/101",
+      "rows": 2
+    },
+    {
+      "det_leading": "735",
+      "dimension": 6,
+      "gain": "234256/152535",
+      "nullity": 3,
+      "probe_leading": "8036",
+      "rho": "164/15",
+      "rows": 3
+    },
+    {
+      "det_leading": "747",
+      "dimension": 6,
+      "gain": "23104/3111255",
+      "nullity": 3,
+      "probe_leading": "85",
+      "rho": "85/747",
+      "rows": 3
+    },
+    {
+      "det_leading": "623",
+      "dimension": 6,
+      "gain": "729632/173817",
+      "nullity": 2,
+      "probe_leading": "2834",
+      "rho": "2834/623",
+      "rows": 4
+    },
+    {
+      "det_leading": "866",
+      "dimension": 6,
+      "gain": "17150/22083",
+      "nullity": 2,
+      "probe_leading": "1148",
+      "rho": "574/433",
+      "rows": 4
+    },
+    {
+      "det_leading": "31280",
+      "dimension": 6,
+      "gain": "841/1955",
+      "nullity": 1,
+      "probe_leading": "13456",
+      "rho": "841/1955",
+      "rows": 5
+    },
+    {
+      "det_leading": "26504",
+      "dimension": 6,
+      "gain": "7442/3313",
+      "nullity": 1,
+      "probe_leading": "59536",
+      "rho": "7442/3313",
+      "rows": 5
+    },
+    {
+      "det_leading": "1936",
+      "dimension": 6,
+      "gain": "0",
+      "nullity": 0,
+      "probe_leading": null,
+      "rho": "0",
+      "rows": 6
+    },
+    {
+      "det_leading": "54756",
+      "dimension": 6,
+      "gain": "0",
+      "nullity": 0,
+      "probe_leading": null,
+      "rho": "0",
+      "rows": 6
+    },
+    {
+      "det_leading": "1076292",
+      "dimension": 6,
+      "gain": "0",
+      "nullity": 0,
+      "probe_leading": null,
+      "rho": "0",
+      "rows": 7
+    },
+    {
+      "det_leading": "1052176",
+      "dimension": 6,
+      "gain": "0",
+      "nullity": 0,
+      "probe_leading": null,
+      "rho": "0",
+      "rows": 7
+    }
+  ],
+  "same_response_different_determinant_control": [
+    3,
+    12
+  ],
+  "scope": "Exact finite checks of the accompanying written identities; not analytic convergence, Lean, or an amplitude equivalence.",
+  "status": "PASS",
+  "zero_immediate_gain_control": {
+    "after_first": 2,
+    "after_second": 0,
+    "initial_residual": 2
+  }
+}

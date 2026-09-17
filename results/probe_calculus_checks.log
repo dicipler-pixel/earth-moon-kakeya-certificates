@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "probe_polynomial_systems": 50,
+  "positive_weight_kernel_tests": 50,
+  "rank_one_updates": 50,
+  "coherent_elimination_orders": 24,
+  "post_elimination_loads": [
+    "0",
+    "1/3",
+    "1",
+    "5"
+  ],
+  "zero_immediate_gain_control": {
+    "initial_residual": 2,
+    "after_first": 2,
+    "after_second": 0
+  },
+  "same_response_different_determinant_control": [
+    3,
+    12
+  ],
+  "scope": "Exact finite checks of the accompanying written identities; not analytic convergence, Lean, or an amplitude equivalence."
+}
