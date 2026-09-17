@@ -1,0 +1,42 @@
+name: Mathematical error in a certificate
+description: Report that a certificate, checker, or theorem statement is wrong.
+title: "[certificate] "
+labels: ["mathematics"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is the most valuable report this repository can receive. Please be
+        as specific as the certificates are: a configuration, a claim, and the
+        reasoning that contradicts it.
+  - type: input
+    id: artifact
+    attributes:
+      label: Which artifact
+      description: File and, where it applies, the family, representative, or dual index.
+      placeholder: "results/singleton_generator_certificate.json, representative 17"
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: What it asserts
+      description: The claim as the certificate or paper states it.
+    validations:
+      required: true
+  - type: textarea
+    id: contradiction
+    attributes:
+      label: Why it is wrong
+      description: >-
+        The counterexample or faulty step. Exact integers please — these are
+        exact-arithmetic certificates, so an approximate argument cannot settle
+        the question either way.
+    validations:
+      required: true
+  - type: checkboxes
+    id: verified
+    attributes:
+      label: Before submitting
+      options:
+        - label: I ran `python repro/verify_release.py --full` and it passed, so this is a mathematical error rather than a corrupted copy.

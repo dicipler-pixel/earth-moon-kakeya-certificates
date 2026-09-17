@@ -1,0 +1,11 @@
+version: 2
+updates:
+  # The verification workflow is the integrity guarantee for this repository,
+  # so its actions are kept current. No package ecosystem is tracked: the
+  # verification runs on the Python standard library alone.
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: "ci"

@@ -1,12 +1,34 @@
 name: verify-certificates
-on: [push, pull_request, workflow_dispatch]
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+# The job only reads the tree; it never needs write access to the repository.
+permissions:
+  contents: read
+
+# A newer push to the same ref supersedes an in-flight verification.
+concurrency:
+  group: verify-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   verify:
+    name: Full release verification
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Check out the release tree
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Regenerate certificates, run independent checkers, replay full corpus
         run: python repro/verify_release.py --full
