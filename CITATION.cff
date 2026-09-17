@@ -22,6 +22,11 @@ date-released: "2026-09-17"
 license:
   - MIT
   - CC-BY-4.0
+doi: "10.5281/zenodo.22812168"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22812168"
+    description: "Archived Zenodo deposit of the Version 2 release."
 repository-code: "https://github.com/dicipler-pixel/earth-moon-kakeya-certificates"
 url: "https://github.com/dicipler-pixel/earth-moon-kakeya-certificates"
 keywords:
