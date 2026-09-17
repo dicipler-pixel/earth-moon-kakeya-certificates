@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "base_pairs_checked": 861,
+  "site_parametric_families": 5166,
+  "representative_barriers_checked": 6112,
+  "integer_target_duals_checked": 25498,
+  "first_escape_class_counts": {
+    "empty": 7926,
+    "ray": 17391,
+    "plane": 4281,
+    "forbidden_or_zero_image": 13689
+  },
+  "corruptions_rejected": [
+    "drop_class",
+    "erase_dual",
+    "corrupt_nullspace"
+  ],
+  "source_anchor_sha256": "f5223751aaf7ce2a372601bb94e931ec1e86cd8bed561270bee55ec1d32792fc",
+  "certificate_sha256": "3162416e2f81a26fad17d86c2f59d5b2bf353f17cce5c2c15788a70022b12b31",
+  "claim": "No completing object in the stated one-unrestricted-generator family.",
+  "not_claimed": [
+    "official Epoch verification",
+    "Lean compilation",
+    "new exponent",
+    "all six-vertex labelings"
+  ]
+}
+elapsed_seconds 0.4418962440000769

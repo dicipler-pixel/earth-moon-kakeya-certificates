@@ -1,0 +1,46 @@
+base pairs 100 reps 720 potential 0
+base pairs 200 reps 1396 potential 0
+base pairs 300 reps 2144 potential 0
+base pairs 400 reps 2888 potential 0
+base pairs 500 reps 3709 potential 0
+base pairs 600 reps 4421 potential 0
+base pairs 700 reps 5097 potential 0
+base pairs 800 reps 5717 potential 0
+{
+  "schema": "kakeya-one-free-generator-v1",
+  "fixed_vertices": 6,
+  "fixed_edges": 7,
+  "generator_cost": 3,
+  "score": "5/3",
+  "base_pairs": 861,
+  "site_parametric_families": 5166,
+  "representative_checks": 6112,
+  "first_escape_class_counts": {
+    "empty": 7926,
+    "ray": 17391,
+    "plane": 4281,
+    "forbidden_or_zero_image": 13689
+  },
+  "potential_winners": [],
+  "controls": {
+    "kt_11_6_complete": true,
+    "kt_minus_generator_closure": [],
+    "kt_7_4_complete": true,
+    "extension_positive_complete_representatives": [
+      [
+        2,
+        0,
+        1
+      ],
+      [
+        5,
+        2,
+        -1
+      ]
+    ],
+    "one_site_zero_first_gain_then_complete": true
+  },
+  "meaning": "Quantified one-unrestricted-direction families; not a count of disjoint new configurations.",
+  "status": "EXCLUDED"
+}
+elapsed_seconds 0.8261556950000113

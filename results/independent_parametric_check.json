@@ -1,0 +1,27 @@
+{
+  "base_pairs_checked": 861,
+  "certificate_sha256": "3162416e2f81a26fad17d86c2f59d5b2bf353f17cce5c2c15788a70022b12b31",
+  "claim": "No completing object in the stated one-unrestricted-generator family.",
+  "corruptions_rejected": [
+    "drop_class",
+    "erase_dual",
+    "corrupt_nullspace"
+  ],
+  "first_escape_class_counts": {
+    "empty": 7926,
+    "forbidden_or_zero_image": 13689,
+    "plane": 4281,
+    "ray": 17391
+  },
+  "integer_target_duals_checked": 25498,
+  "not_claimed": [
+    "official Epoch verification",
+    "Lean compilation",
+    "new exponent",
+    "all six-vertex labelings"
+  ],
+  "representative_barriers_checked": 6112,
+  "site_parametric_families": 5166,
+  "source_anchor_sha256": "f5223751aaf7ce2a372601bb94e931ec1e86cd8bed561270bee55ec1d32792fc",
+  "status": "PASS"
+}

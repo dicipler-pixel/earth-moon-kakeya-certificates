@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "initial_known_sets": 6,
+  "site_parametric_families": 36,
+  "representatives_checked": 38,
+  "integer_target_duals_checked": 152,
+  "certificate_sha256": "80144d57f39e0c8ee20a3e32523c7b74015e8226563630bb93be711820bffd2c",
+  "claim": "No completion on the fixed seven-edge tower with one initially known vertex and one arbitrary admissible integer site generator."
+}

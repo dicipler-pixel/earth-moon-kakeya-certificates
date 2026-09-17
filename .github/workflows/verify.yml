@@ -1,0 +1,12 @@
+name: verify-certificates
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Regenerate certificates, run independent checkers, replay full corpus
+        run: python repro/verify_release.py --full
