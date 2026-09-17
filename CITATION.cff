@@ -1,9 +1,35 @@
 cff-version: 1.2.0
 message: "If you use this work, please cite it as below."
 title: "Certified Obstructions and Exact Forcing: Earth-Moon Graph Coloring and Arithmetic Kakeya"
+abstract: >-
+  Obstruction, classification, and finite-exclusion theorems for the Earth-Moon
+  graph coloring and arithmetic Kakeya problems, with checkable certificates. A
+  written first-escape classification reduces an unrestricted integer generator
+  direction to finitely many exact representatives; the fixed six-vertex
+  Katz-Tao edge core has no completion when two generators are distinct
+  placements from the declared seven-direction pool and a third has any
+  admissible integer direction at any site. Neither Epoch FrontierMath benchmark
+  is claimed solved. This repository is the public reproduction supplement:
+  manuscript, producers, independent checkers, saved outputs, and the complete
+  older arithmetic and graph proof corpus, all re-verified in continuous
+  integration on every push.
+type: software
 authors:
   - family-names: Beasley
     given-names: Jeromie
 version: "2.0"
 date-released: "2026-09-17"
-license: CC-BY-4.0
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/dicipler-pixel/earth-moon-kakeya-certificates"
+url: "https://github.com/dicipler-pixel/earth-moon-kakeya-certificates"
+keywords:
+  - Earth-Moon problem
+  - graph coloring
+  - biplanar graphs
+  - arithmetic Kakeya
+  - Katz-Tao
+  - certified computation
+  - reproducibility
+  - formal certificates

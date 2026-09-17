@@ -1,0 +1,43 @@
+name: Reproduction failure
+description: verify_release.py fails on your machine.
+title: "[repro] "
+labels: ["reproduction"]
+body:
+  - type: textarea
+    id: output
+    attributes:
+      label: Complete output
+      description: The full output of the failing command, not just the last line.
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: python
+    attributes:
+      label: Python version
+      description: Output of `python --version`. 3.10 or later is required.
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: "Windows 11 / macOS 15.3 / Ubuntu 24.04"
+    validations:
+      required: true
+  - type: dropdown
+    id: command
+    attributes:
+      label: Which command
+      options:
+        - python repro/verify_release.py
+        - python repro/verify_release.py --full
+    validations:
+      required: true
+  - type: checkboxes
+    id: clean
+    attributes:
+      label: Before submitting
+      options:
+        - label: I am working from a clean clone, with no local edits to files listed in SHA256SUMS.txt.
+        - label: I did not run Python with the -O flag.
