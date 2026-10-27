@@ -1,7 +1,7 @@
 ---
 title: "Compound Eye now remembers the obstruction"
 subtitle: "Implemented decision DAGs, measured proof savings, and new finite exclusions"
-date: "Jeromie N. Beasley · Operator-First Atlas · Edition 0.4 · 7 September 2026"
+date: "Jeromie Beasley · Operator-First Atlas · Edition 0.4 · 7 September 2026"
 lang: en
 ---
 

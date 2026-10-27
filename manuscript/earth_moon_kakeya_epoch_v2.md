@@ -19,7 +19,7 @@ Earth--Moon Graph Coloring
 
 and Arithmetic Kakeya
 
-Jeromie N. Beasley
+Jeromie Beasley
 
 Operator-First Persistent Geometry Initiative
 
